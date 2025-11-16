@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://robinsonhonour.me.',
+    url: 'https://devjachi.vercel.app',
     siteName: 'DevJachi Portfolio',
     title: 'DevJachi | Software Engineer',
     description: 'Software Engineer specializing in web development, app development and cloud computing. Building scalable products with great user experiences.',
