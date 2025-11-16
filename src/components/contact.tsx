@@ -52,7 +52,7 @@ const Contact = () => {
             className={`text-[#FFFFFF99] font-medium text-base md:text-[20px] md:leading-[30px]`}
             href="mailto:codewithhonour@gmail.com"
           >
-            codewithhonour@gmail.com
+            onwohemmanuel96@gmail.com
           </a>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
@@ -65,7 +65,7 @@ const Contact = () => {
             href="tel:+2349163169949"
             className={`text-[#FFFFFF99] tex-base font-medium md:text-[20px] md:leading-[30px]`}
           >
-            +2349163169949
+            +2349074908942
           </a>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
@@ -77,7 +77,7 @@ const Contact = () => {
           <p
             className={`text-[#FFFFFF99] text-base mx-auto text-center font-medium md:text-[20px] md:leading-[30px]`}
           >
-            {timeOfDay === "morning" && <span>metaverse!⚡</span>}
+            {timeOfDay === "morning" && <span>octoverse!⚡</span>}
             {timeOfDay === "afternoon" && <span>localhost:3000</span>}
             {timeOfDay === "evening" && <span>127.0.0.1:5500</span>}
             {/* {timeOfDay === "evening" && <span>somewhere in the metaverse</span>} */}

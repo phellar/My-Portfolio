@@ -1,125 +1,54 @@
 export const projects = [
   {
-    name: "RunMeCV AI",
-    desc: "Resume/CV Generation Site Using AI",
-    lang: "Next.js + Node.js + TailwindCSS",
-    link: "https://runmecv.vercel.app/",
+    name: "Quivo AI",
+    desc: " AI-powered Job Matcher",
+    lang: "React js + Node.js + TailwindCSS",
+    link: "https://quivo.vercel.app/",
   },
   {
-    name: "EHR Clothing Brand",
-    desc: "EHR Clothing Brand is a leading provider of high-quality EHR clothing products, designed to meet the unique needs of healthcare professionals.",
-    lang: "Next.js + Node.js + TailwindCSS",
-    link: "https://www.ehrclothing.store/",
+    name: "Umber Clothing Brand",
+    desc: "Umber Clothing Brand is an Ecommerce Store designed to meet the unique needs of day to day commuters and people.",
+    lang: "React.js + Firebase + TailwindCSS + Paystack",
+    link: "https://umber-psi.vercel.app/",
   }, {
-    name: "Zgnis Analytics",
-    desc: "Advanced waste management analytics platform with real-time monitoring and data visualization",
+    name: "9ine Movies",
+    desc: "Modern film discovery platform offering smooth streaming, quick downloads, and personalized recommendations.",
     lang: "Next.js + Node.js + TailwindCSS",
-    link: "https://zeugnis-landing-page.vercel.app/",
+    link: "https://9ine.vercel.app/",
   },
   {
-    name: "ClanShare",
-    desc: "Instant file sharing platform with secure link generation and seamless user experience",
+    name: "Ugwu Academy",
+    desc: "Scalable academic portal featuring secure authentication, automated communication systems, custom exam generation, and real-time student–tutor dashboards built with Node.js and Express.",
     lang: "React.js + Node.js + TailwindCSS",
-    link: "https://clanshare.vercel.app/",
+    link: "https://ugwututorial.vercel.app/",
   },
   {
-    name: "Rewrap: Js/Ts CLI Tool",
-    desc: "A powerful command-line interface tool for JavaScript and TypeScript development",
+    name: "KIX: CLI TOOL",
+    desc: "Instant project scaffolding tool that generates production-ready Express and MongoDB setups with built-in GitHub initialization and multi package manager support.",
     lang: "Node.js + TypeScript + JavaScript",
-    link: "https://rewrap.vercel.app/",
+    link: "https://www.npmjs.com/package/kix-cli/",
+
   },
   {
-    name: "Ondepay Virtual Card V2",
-    desc: "Enhanced digital payment solution with improved user experience and advanced virtual card management",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "https://ondepayupdated.vercel.app/",
-  },
-  {
-    name: "Carb",
-    desc: "Modern e-hailing platform revolutionizing urban transportation",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://carb.com.ng/",
-  },
-  {
-    name: "Fundme: Fundraiser App",
-    desc: "A modern fundraising platform built with cutting-edge technologies",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "http://fund-me-pro.vercel.app/",
-  },
-  {
-    name: "Ondepay Virtual Card",
-    desc: "Digital payment solution with virtual card management system",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "https://ondepay-ng3t.vercel.app/",
-  },
-  {
-    name: "Musician Portfolio",
-    desc: "Professional portfolio website for musicians with dynamic content management",
-    lang: "TypeScript + Node.js + TailwindCSS",
-    link: "https://lainey-wilson.vercel.app/",
-  },
-  {
-    name: "Photography Website",
-    desc: "Professional photography portfolio with gallery management",
-    lang: "JavaScript + Node.js + TailwindCSS",
-    link: "https://photography-app-topaz.vercel.app/",
-  },
-  {
-    name: "React.js Toast Library",
-    desc: "Custom toast notification library for React applications",
-    lang: "TypeScript + Node.js + JavaScript",
-    link: "https://www.npmjs.com/package/robinson-reactjs-toast",
-  },
-  {
-    name: "Form Validator Library",
-    desc: "Comprehensive form validation library for modern web applications",
-    lang: "TypeScript + Node.js + JavaScript",
-    link: "https://www.npmjs.com/package/robinson-form-validator",
-  },
-  {
-    name: "UncutXtra Awards Site",
-    desc: "Dynamic awards platform with real-time voting system",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://uncutxtra.vercel.app",
-  },
-  {
-    name: "My TicketSeller",
-    desc: "Digital ticketing platform for events and entertainment",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://myticketseller.com",
-  },
-  {
-    name: "SME Event",
-    desc: "Event management platform for small and medium enterprises",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://sme-unwind.vercel.app/",
-  },
-  {
-    name: "Veefa",
-    desc: "Multi-vendor marketplace platform with advanced features",
-    lang: "PHP + Bootstrap + jQuery",
-    link: "https://veefa.co/",
+    name: "Chain Arena",
+    desc: "On-chain gaming infrastructure that lets Web2 games integrate Web3 features like tokenized assets, NFT badges, and in-game staking without rebuilding their backend.",
+    lang: "React.js + Node.js + TailwindCSS + ether.js + solidity",
+    link: "https://chainarena-ten.vercel.app/",
   },
   {
     name: "My Portfolio",
-    desc: "Personal portfolio showcasing projects and skills",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://robinsonhonour.vercel.app/",
-  },
-  {
-    name: "Indulgetix",
-    desc: "Comprehensive event management and ticketing solution",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://indulgetix.com/",
+    desc: "My Portfolio showcasing my projects and skills",
+    lang: "Next.js + TailwindCSS",
+    link: "https://devjachi.vercel.app/",
   }
 ];
 
 export const experienceData = [
   {
-    role: "Frontend Developer",
-    span: "2023 - till date",
-    comp: "TekArt",
-    desc: "I work as a Lead Frontend Engineer at TekArt, crafting thoughtful and inclusive experiences that adhere to web standards.",
+    role: "Creative Designer & Software Developer",
+    span: "2025 - till date",
+    comp: "9ine Movies",
+    desc: "I work as a Software Enginner at 9ine Movies, developeing and integrating external Movie data Api's and creating great UI's with code  ",
   },
 ];
 
@@ -132,60 +61,46 @@ export const skills = [
     id: 1,
     title: "Css",
   },
+
   {
     id: 2,
-    title: "Bootstrap",
-  },
-  {
-    id: 3,
     title: "TailwindCSS",
   },
+
   {
-    id: 4,
-    title: "SCSS",
-  },
-  {
-    id: 5,
+    id: 3,
     title: "JavaScript",
   },
   {
-    id: 6,
+    id: 4,
     title: "TypeScript",
   },
   {
-    id: 7,
-    title: "Jquery",
-  },
-  {
-    id: 8,
+    id: 5,
     title: "ReactJs",
   },
   {
-    id: 9,
+    id: 6,
     title: "NextJs",
   },
   {
-    id: 10,
+    id: 7,
     title: "Git",
   },
   {
-    id: 11,
+    id: 8,
     title: "Github",
   },
   {
-    id: 12,
-    title: "Figma",
+    id: 9,
+    title: "Canva",
   },
   {
-    id: 13,
-    title: "Photoshop",
+    id: 10,
+    title: "Capcut/InShot",
   },
   {
-    id: 14,
-    title: "Premiere pro",
-  },
-  {
-    id: 15,
+    id: 11,
     title: "NodeJs/Express",
   },
   {

@@ -20,7 +20,7 @@ const services = [
     {
         id: 2,
         title: "BACKEND DEVELOPMENT",
-        description: "Building robust server-side applications and APIs using Node.js, Python, and database technologies. Ensuring scalability and security.",
+        description: "Building robust server-side applications and APIs using Node.js and SQL/NOSQL database technologies. Ensuring scalability and security.",
         icon: Server,
         category: "Development"
     },
@@ -31,24 +31,18 @@ const services = [
         icon: Smartphone,
         category: "Mobile"
     },
+
     {
         id: 4,
-        title: "ROBOTICS ENGINEERING",
-        description: "Creating and programming robotic systems, specializing in automation and control systems as a resource personnel for Airobot in Bonny Island.",
-        icon: BotIcon,
-        category: "Engineering"
-    },
-    {
-        id: 5,
         title: "UI DESIGN",
         description: "Crafting intuitive and visually appealing user interfaces with a focus on user-centered design principles and modern design trends.",
         icon: Palette,
         category: "Design"
     },
     {
-        id: 6,
-        title: "CLOUD COMPUTING",
-        description: "Implementing and managing cloud solutions, leveraging services for scalable and efficient application deployment and infrastructure management.",
+        id: 5,
+        title: "CLOUD ENGINEERING",
+        description: "Implementing and experimenting with cloud solutions, leveraging essential services to deploy scalable applications while actively expanding my cloud engineering skills.",
         icon: Cloud,
         category: "Infrastructure"
     }
@@ -73,7 +67,7 @@ const Services = () => {
                     </h1>
                     <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-blue-500 mb-6" />
                     <p className="text-[#FFFFFF99] text-base md:text-l ">
-                        Specialized in multiple domains of software and hardware engineering
+                        Specialized in multiple domains of software engineering
                     </p>
                 </motion.div>
 

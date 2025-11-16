@@ -1,7 +1,7 @@
 'use client'
 
 import Resume from "./resume";
-const resumeUrl = '/pdf/resume.pdf';
+const resumeUrl = '/pdf/DevJachi.pdf';
 import { motion } from "framer-motion";
 
 const Experience = () => {
@@ -28,62 +28,85 @@ const Experience = () => {
 
           <div className="space-y-12">
             {[
-              {
-                title: "Frontend Developer",
-                company: "Steadfast International",
-                location: "Lagos, Nigeria",
-                period: "2025 - Present",
-                description: [
-                  "Leading the development of a Progressive Web App (PWA) eCommerce platform, Admin Panel, and Affiliate Marketing Website",
-                  "Implementing responsive and mobile-first design principles with modern frontend technologies",
-                  "Collaborating with the product team to deliver high-performance web applications with focus on user experience",
-                  "Building scalable frontend architecture for multiple interconnected platforms"
-                ]
-              },
-              {
-                title: "Fullstack Developer & CEO",
-                company: "Pxxl Space",
-                location: "PH, Nigeria",
-                period: "2023 - Present",
-                description: [
-                  "Led the development and implementation of innovative web solutions.",
-                  "Managed both frontend and backend aspects of projects.",
-                  "Oversaw company operations and strategic decision-making as CEO."
-                ]
-              },
-              {
-                title: "Fullstack Developer",
-                company: "Indulgetix",
-                location: "Lagos, Nigeria",
-                period: "2024 - Present",
-                description: [
-                  "Built backend infrastructure for an event management platform.",
-                  "Designed and implemented APIs for seamless event booking and management.",
-                  "Optimized database performance for handling high-volume ticket sales."
-                ]
-              },
-              {
-                title: "Backend Developer",
-                company: "Organ Station",
-                location: "Remote",
-                period: "2022 - 2023",
-                description: [
-                  "Developed robust backend systems for healthcare applications.",
-                  "Implemented secure data management solutions for sensitive medical information.",
-                  "Collaborated with frontend teams to ensure seamless integration."
-                ]
-              },
-              {
-                title: "Director of IT",
-                company: "Intelligentsia",
-                location: "PH, Nigeria",
-                period: "2018 - Present",
-                description: [
-                  "Oversee all IT operations and infrastructure for the school.",
-                  "Implement innovative technology solutions to enhance learning experiences.",
-                  "Manage IT staff and ensure alignment with educational goals."
-                ]
-              }
+             {
+              title: "Creative Designer & Software Developer",
+              company: "9ine Movies",
+              location: "Remote",
+              period: "May 2025 – Present",
+              description: [
+                "Contributing to the design and development of the platform’s backend architecture for large-scale movie streaming and downloads.",
+                "Integrated external movie data APIs and optimized backend performance using Node.js and MongoDB while implementing secure coding practices."
+              ]
+            },
+            {
+              title: "Lead Developer",
+              company: "Jachi Tech, Nigeria",
+              location: "Remote",
+              period: "Jan 2023 – Jun 2024",
+              description: [
+                "Designed and maintained visually appealing, responsive websites for clients to enhance online visibility and scalability.",
+                "Collaborated with frontend and backend teams to integrate APIs and improve functionality.",
+                "Optimized website performance, increasing load speed and user experience across devices."
+              ]
+            },
+            {
+              title: "Software Engineer",
+              company: "Ugwu Tutorials, Enugu, Nigeria",
+              location: "Enugu, Nigeria",
+              period: "May 2023 – Dec 2023",
+              description: [
+                "Developed and tested internal dashboards enabling seamless communication between students and teachers.",
+                "Built and maintained backend systems using Node.js and Express.js.",
+                "Created automated email systems for congratulatory, rejection, and confirmation notifications.",
+                "Implemented admin dashboards for tutors to create exams and students to access personalized exams.",
+                "Utilized Git and GitHub for version control and collaborative development."
+              ]
+            },
+            {
+              title: "Quivo",
+              company: "Solo Developer",
+              location: "Remote",
+              period: "2024",
+              description: [
+                "Built an AI-powered job finder analyzing CV content and recommending tailored job listings.",
+                "Implemented Redis caching to store job results for 24hrs, reducing latency and repeated API requests.",
+                "Added a rate limiter to prevent multiple concurrent requests and reduce server load.",
+                "Integrated Gemini AI for CV parsing and Adzuna API for real-time job data."
+              ]
+            },
+            {
+              title: "Kix CLI",
+              company: "Solo Developer",
+              location: "Remote",
+              period: "2024",
+              description: [
+                "Developed a CLI tool to instantly scaffold MongoDB + Express.js projects and initialize GitHub repositories.",
+                "Automated project setup, allowing developers to focus on building rather than configuration.",
+                "Extending the tool to spin up full MERN applications with best practices such as .env and .gitignore."
+              ]
+            },
+            {
+              title: "Chain Arena",
+              company: "Fullstack Developer",
+              location: "Remote",
+              period: "2024",
+              description: [
+                "Built a platform enabling Web2 games to integrate Web3 features without rebuilding infrastructure.",
+                "Implemented tokenized assets, NFT badges, and in-game staking using MERN, Ethers.js, and Solidity.",
+                "Designed secure and scalable backend and smart contract architecture for Web3 gaming integration."
+              ]
+            },
+            {
+              title: "Spltz",
+              company: "Founder / Developer",
+              location: "Remote",
+              period: "2024",
+              description: [
+                "Developed an on-chain payment splitting system enabling users to pay in stablecoins and receive funds in fiat currency.",
+                "Implemented secure smart contracts and backend logic for automated fund distribution.",
+                "Showcases practical Web3 fintech experience and decentralized payment solutions."
+              ]
+            }
             ].map((experience, index) => (
               <motion.div
                 key={index}
@@ -145,7 +168,7 @@ const Experience = () => {
           >
             <Resume
               pdfUrl={resumeUrl}
-              fileName="RobinsonHonour.pdf"
+              fileName="DevJachi.pdf"
               buttonText="Download Resume"
             />
           </motion.div>

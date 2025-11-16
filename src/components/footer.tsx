@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Copyright, FbIcon, IgIcon, InIcon, TwIcon } from "./svgs";
+import { Copyright, FbIcon, IgIcon, InIcon, TwIcon,  GhIcon} from "./svgs";
 
 const Footer = () => {
   const [time, setTime] = useState<string>('');
@@ -36,10 +36,10 @@ const Footer = () => {
               <Copyright className="size-[18px] md:size-[20px]" />
             </span>
             <p className={`text-[#FFFFFF99] md:text-xl text-lg font-medium`}>
-              Honour
+              DevJachi
               <span className="text-[#FFFFFF] text-[14px] lg:text-base">
                 {" "}
-                53 BC -
+                12 AD -
               </span>{" "}
               <span className="text-[#FFFFFF] text-[14px] lg:text-base">
                 {new Date().getFullYear()}
@@ -51,21 +51,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="mt-[10px] md:mt-[65px] flex justify-start items-center gap-[20px] md:gap-[40px]">
+
           <motion.a
-            href="https://www.facebook.com/honour.robinson.1"
-            target="_blank"
-            rel="noreferrer"
-            whileTap={{ scale: 1.1 }}
-            whileHover={{ scale: 0.99 }}
-            className="h-auto w-auto"
-          >
-            <FbIcon
-              fill={`#FFFFFF99`}
-              className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-gray-500`}
-            />
-          </motion.a>
-          <motion.a
-            href="https://x.com/honour_can_code"
+            href="https://x.com/EOnwoh"
             target="_blank"
             rel="noreferrer"
             whileTap={{ scale: 1.1 }}
@@ -77,28 +65,16 @@ const Footer = () => {
               className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-1  transition-all duration-500 hover:bg-gray-500`}
             />
           </motion.a>
+
           <motion.a
-            href="https://www.instagram.com/robinsonhonour"
+            href="https://github.com/DevJachi"
             target="_blank"
             rel="noreferrer"
             whileTap={{ scale: 1.1 }}
             whileHover={{ scale: 0.99 }}
             className="h-auto w-auto"
           >
-            <IgIcon
-              fill={`#FFFFFF99`}
-              className={`w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-500 hover:bg-gray-500`}
-            />
-          </motion.a>
-          <motion.a
-            href="https://ng.linkedin.com/in/robinsonhonouramadi"
-            target="_blank"
-            rel="noreferrer"
-            whileTap={{ scale: 1.1 }}
-            whileHover={{ scale: 0.99 }}
-            className="h-auto w-auto"
-          >
-            <InIcon
+            <GhIcon
               fill={`#FFFFFF99`}
               className="w-[30px] h-[30px] rounded-full border-[#FFFFFF99] border-solid border-[2px] p-0.5  transition-all duration-700 hover:bg-gray-500"
             />
