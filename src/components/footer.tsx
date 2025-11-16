@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Copyright, FbIcon, IgIcon, InIcon, TwIcon,  GhIcon} from "./svgs";
+import { Copyright,  TwIcon,  GhIcon} from "./svgs";
 
 const Footer = () => {
   const [time, setTime] = useState<string>('');

@@ -1,6 +1,6 @@
 'use client'
 import { motion } from "framer-motion";
-import { FbIcon, IgIcon, InIcon, TwIcon, GhIcon} from "./svgs";
+import {  TwIcon, GhIcon} from "./svgs";
 import Image from 'next/image';
 
 const Hero = () => {
