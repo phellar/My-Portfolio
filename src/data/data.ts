@@ -1,46 +1,44 @@
 export const projects = [
+
   {
-    name: "Quivo AI",
-    desc: " AI-powered Job Matcher",
-    lang: "React js + Node.js + TailwindCSS",
-    link: "https://quivo.vercel.app/",
-  },
-  {
-    name: "Umber Clothing Brand",
-    desc: "Umber Clothing Brand is an Ecommerce Store designed to meet the unique needs of day to day commuters and people.",
-    lang: "React.js + Firebase + TailwindCSS + Paystack",
-    link: "https://umber-psi.vercel.app/",
+    name: "VamooveGo",
+    desc: "A Food Delivery Ecommerce WebApp",
+    lang: "PHP +  Laravel + Flutterwave + Twilo + Supabase + PostgreSql",
+    link: "https://vamoovego.com",
+    
   }, {
-    name: "9ine Movies",
-    desc: "Modern film discovery platform offering smooth streaming, quick downloads, and personalized recommendations.",
-    lang: "Next.js + Node.js + TailwindCSS",
+    name: "AfrikTastyBites",
+    desc: "An africa food, cake, pastry ecommerce web app in Ontario-Canada.",
+    lang: "React + Laravel + PHP + Stripe",
     link: "https://9ine.vercel.app/",
   },
   {
-    name: "Ugwu Academy",
-    desc: "Scalable academic portal featuring secure authentication, automated communication systems, custom exam generation, and real-time student–tutor dashboards built with Node.js and Express.",
-    lang: "React.js + Node.js + TailwindCSS",
-    link: "https://ugwututorial.vercel.app/",
+    name: "IT Support Help Desk",
+    desc: " IT Help desk for support Ticket",
+    lang: "PHP + Laravel + Sanctum Auth + Mysql",
+    link: "https://github.com/phellar/Help-desk",
   },
   {
-    name: "KIX: CLI TOOL",
-    desc: "Instant project scaffolding tool that generates production-ready Express and MongoDB setups with built-in GitHub initialization and multi package manager support.",
-    lang: "Node.js + TypeScript + JavaScript",
-    link: "https://www.npmjs.com/package/kix-cli/",
+    name: "Admin SmartForce ",
+    desc: "Area `P` Police Command Personnel records management system",
+    lang: "PHP + MySql + Supabase + React + Bootstrap",
+    link: "https://",
+  },
+  {
+    name: "Scaffold: CLI TOOL",
+    desc: "A developer friendly CLI tool that streamlines African payment integration. By answering a few interactive prompts, it scaffolds backend code for bank transfers, mobile money, and card payments, making setup fast, secure, and hassle-free. ",
+    lang: "Composer + PHP + Laravel",
+    link: "https://",
 
   },
   {
-    name: "Chain Arena",
-    desc: "On-chain gaming infrastructure that lets Web2 games integrate Web3 features like tokenized assets, NFT badges, and in-game staking without rebuilding their backend.",
-    lang: "React.js + Node.js + TailwindCSS + ether.js + solidity",
-    link: "https://chainarena-ten.vercel.app/",
+    name: "SwiftPay",
+    desc: "A robust and secure web app API for utility bills payment, airtime top-up ",
+    lang: "PostgreSQL + PHP + Laravel + Sanctum Auth + Squadco",
+    link: "https://",
+
   },
-  {
-    name: "My Portfolio",
-    desc: "My Portfolio showcasing my projects and skills",
-    lang: "Next.js + TailwindCSS",
-    link: "https://devjachi.vercel.app/",
-  }
+
 ];
 
 export const experienceData = [
@@ -55,33 +53,29 @@ export const experienceData = [
 export const skills = [
   {
     id: 0,
-    title: "Html",
+    title: "PHP",
   },
   {
     id: 1,
-    title: "Css",
+    title: "Laravel",
   },
 
   {
     id: 2,
-    title: "TailwindCSS",
+    title: "MySQL",
   },
 
   {
     id: 3,
-    title: "JavaScript",
+    title: "PostgreSQL",
   },
   {
     id: 4,
-    title: "TypeScript",
+    title: "Javascript",
   },
   {
     id: 5,
-    title: "ReactJs",
-  },
-  {
-    id: 6,
-    title: "NextJs",
+    title: "Postman",
   },
   {
     id: 7,
@@ -92,19 +86,11 @@ export const skills = [
     title: "Github",
   },
   {
-    id: 9,
-    title: "Canva",
-  },
-  {
-    id: 10,
-    title: "Capcut/InShot",
-  },
-  {
-    id: 11,
-    title: "NodeJs/Express",
+    id: Math.random(),
+    title: "Reddis",
   },
   {
     id: Math.random(),
-    title: "MongoDB",
+    title: "Scramble",
   },
 ];

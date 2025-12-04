@@ -9,12 +9,12 @@ const geistSans = Poppins({
 });
  
 export const metadata: Metadata = {
-  title: 'DevJachi | Inventive Software Engineer',
-  description: 'Inventive Software Engineer with 6+ years of experience, specializing in fullstack web development and app development. Building scalable products with great user experiences.',
-  keywords: ['Software Engineer', 'Web Development', 'App Development', 'Cloud Computing', 'Graphics Designer', 'Full Stack Developer', 'DevJachi', 'Onwoh Jachukwunma', 'Onwoh Emmanuel', 'Jachi'],
-  authors: [{ name: 'DevJachi' }],
-  creator: 'DevJachi',
-  publisher: 'DevJachi',
+  title: 'Dev.Dami |  Software Engineer',
+  description: 'Software Engineer with 3+ years of experience, specializing in fullstack web development and Techinical Support. Building scalable products with great user experiences.',
+  keywords: ['Software Engineer', 'Web Development', 'Tech Support', 'Cloud Computing', 'Sytem Administrator', 'Full Stack Developer', 'Backend',],
+  authors: [{ name: 'Dev.Dami' }],
+  creator: 'Dev.Dami',
+  publisher: 'Dev.Dami',
   formatDetection: {
     email: false,
     address: false,
@@ -28,24 +28,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://devjachi.vercel.app',
-    siteName: 'DevJachi Portfolio',
-    title: 'DevJachi | Software Engineer',
-    description: 'Software Engineer specializing in web development, app development and cloud computing. Building scalable products with great user experiences.',
+    url: '',
+    siteName: 'Dev.Dami Portfolio',
+    title: 'Dev.Dami | Software Engineer',
+  description: 'Software Engineer with 3+ years of experience, specializing in fullstack web development and Techinical Support. Building scalable products with great user experiences.',
     images: [
       {
         url: '/banner.png',
         width: 1200,
         height: 630,
-        alt: 'DevJachi - Software Engineer',
+        alt: ' Dev.Dami- Software Engineer',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DevJachi | Software Engineer',
+    title: 'Dev.Dami | Software Engineer',
     description: 'Software engineer building scalable products with great user experiences.',
-    creator: '@EOnwoh',
+    creator: 'Dev.Dami',
     images: ['/banner.png'],
   },
   robots: {
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'DevJachi',
+    title: 'Dev.Dami',
   },
 };
 

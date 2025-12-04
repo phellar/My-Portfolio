@@ -5,17 +5,21 @@ import {
     Palette,
     Cloud,
     Code,
-    Server
+    Server,
+    Laptop,
+    Wrench,
+    MessageSquareMoreIcon
+    
 } from 'lucide-react';
 
 const services = [
-    {
-        id: 1,
-        title: "FRONTEND DEVELOPMENT",
-        description: "Crafting responsive and interactive web applications using React, Next.js, and TypeScript. Focusing on modern UI/UX practices and optimal performance.",
-        icon: Code,
-        category: "Development"
-    },
+    // {
+    //     id: 1,
+    //     title: "FRONTEND DEVELOPMENT",
+    //     description: "Crafting responsive and interactive web applications using React, Next.js, and TypeScript. Focusing on modern UI/UX practices and optimal performance.",
+    //     icon: Code,
+    //     category: "Development"
+    // },
     {
         id: 2,
         title: "BACKEND DEVELOPMENT",
@@ -23,19 +27,19 @@ const services = [
         icon: Server,
         category: "Development"
     },
-    {
-        id: 3,
-        title: "APP DEVELOPMENT",
-        description: "Developing cross-platform mobile applications and desktop software solutions that deliver seamless user experiences across different devices.",
-        icon: Smartphone,
-        category: "Mobile"
-    },
+    // {
+    //     id: 3,
+    //     title: "APP DEVELOPMENT",
+    //     description: "Developing cross-platform mobile applications and desktop software solutions that deliver seamless user experiences across different devices.",
+    //     icon: Smartphone,
+    //     category: "Mobile"
+    // },
 
     {
         id: 4,
-        title: "UI DESIGN",
+        title: "TECHNICAL SUPPORT",
         description: "Crafting intuitive and visually appealing user interfaces with a focus on user-centered design principles and modern design trends.",
-        icon: Palette,
+        icon: Laptop,
         category: "Design"
     },
     {
@@ -44,7 +48,23 @@ const services = [
         description: "Implementing and experimenting with cloud solutions, leveraging essential services to deploy scalable applications while actively expanding my cloud engineering skills.",
         icon: Cloud,
         category: "Infrastructure"
+    },
+    {
+        id: 6,
+        title: "SOFTWARE MAINTENANCE",
+        description: " Providing comprehensive software maintenance, including bug fixes, performance optimization, and backend enhancements to keep applications running smoothly and efficiently.",
+        icon: Wrench,
+        category: "Web/Software Maintenance"
+    },
+    {
+        id: 7,
+        title: "CONSULTANCY",
+        description: "Providing expert IT consultancy, guiding businesses to implement scalable, efficient, and secure software solutions while optimizing technology workflows.",
+        icon: MessageSquareMoreIcon,
+        category: "IT Consultancy"
     }
+    
+
 ];
 
 

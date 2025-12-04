@@ -11,27 +11,26 @@ const Hero = () => {
           <div>
             <div className="gradientText">
               <h1>
-                Innovative Software Engineer<span>.</span>
+                Solution Driven Software Engineer<span>.</span>
               </h1>
             </div>
             <p className="gradientText font-medium font-pop text-[15px] text-[#FFFFFF99] max-w-[353px] mt-[45px] md:mt-8 lg:mt-1 md:max-w-[639px] md:text-[18px] leading-md:[27px]">
-              I like to craft solid and scalable products with great user experiences.
+              I build efficient Backend system, clean APIs, and scalable systems that powers modern applications.
             </p>
             <div
               id="intro"
               className="text-[#F0FEFF] font-pop flex-shrink-0 text-[.9em] leading-[1.5] font-medium mt-[40px] flex flex-col gap-8 md:flex md:flex-col md:gap-[20px] md:mt-[45px] lg:flex lg:flex-row lg:items-start lg:gap-[12px]"
             >
-              <p className="max-w-[310px]">
-                I&#39;m Jachukwunma, a software engineer with 3+ years of experience. I started programming in 2021 and specialize in web development, app development, and light cloud engineering.
+              <p className="max-w-[315px]">
+                I&#39;m Oluwadamilare, a software engineer with 3+ years of experience who loves building the backbone of digital applications and products.
               </p>
               <p className="max-w-[319px]">
-                Self-taught programmer with proven experience in building live projects.
-                Serial app builder and community guy.
+                I specialize in Backend Engineering, designonge efficient APIs, structuring databases, optimizing server-side logic and creating system that are fast, secure and easy to scale.
               </p>
             </div>
             <div className="mt-[35px] md:mt-[65px] flex justify-start items-center  gap-[26px] md:gap-[40px]">
               <motion.a
-                href="https://github.com/DevJachi"
+                href="https://github.com/phellar"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
@@ -44,7 +43,7 @@ const Hero = () => {
                 />
               </motion.a>
               <motion.a
-                href="https://x.com/EOnwoh"
+                href="https://x.com/theonlyphellar"
                 target="_blank"
                 rel="noreferrer"
                 whileTap={{ scale: 1.1 }}
@@ -64,7 +63,7 @@ const Hero = () => {
             <div className="relative flex flex-col justify-center w-max">
               <div className={`w-full`}>
                 <Image
-                  src="/images/XICON.png"
+                  src="/images/buj-2.jpeg"
                   alt="hero image"
                   width={400}
                   height={400}

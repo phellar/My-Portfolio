@@ -36,7 +36,7 @@ const Footer = () => {
               <Copyright className="size-[18px] md:size-[20px]" />
             </span>
             <p className={`text-[#FFFFFF99] md:text-xl text-lg font-medium`}>
-              DevJachi
+              DevDami
               <span className="text-[#FFFFFF] text-[14px] lg:text-base">
                 {" "}
                 12 AD -
@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="mt-[10px] md:mt-[65px] flex justify-start items-center gap-[20px] md:gap-[40px]">
 
           <motion.a
-            href="https://x.com/EOnwoh"
+            href="https://x.com/theonlyphellar"
             target="_blank"
             rel="noreferrer"
             whileTap={{ scale: 1.1 }}
@@ -67,7 +67,7 @@ const Footer = () => {
           </motion.a>
 
           <motion.a
-            href="https://github.com/DevJachi"
+            href="https://github.com/phellar"
             target="_blank"
             rel="noreferrer"
             whileTap={{ scale: 1.1 }}

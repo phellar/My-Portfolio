@@ -1,10 +1,74 @@
-'use client'
+"use client";
 
 import Resume from "./resume";
-const resumeUrl = '/pdf/DevJachi.pdf';
 import { motion } from "framer-motion";
 
+const resumeUrl = "/pdf/DevJachi.pdf";
+
 const Experience = () => {
+  const experienceData = [
+    {
+      title: "Backend Engineer",
+      company: "VamooveGo",
+      location: "Remote",
+      period: "2025 – Present",
+      description: [
+        "Developing the backend architecture for a campus-focused food delivery platform serving FUTA and Akure.",
+        "Built vendor onboarding, menu management, order processing, and cart features using Node.js and Supabase.",
+        "Implemented delivery fee calculation using geolocation-based distance metrics with Leaflet maps.",
+        "Designed a responsive React frontend enabling users to browse vendors, place orders, and track deliveries.",
+        "Integrated secure payment workflows and optimized data fetching for better performance."
+      ]
+    },
+    {
+      title: "Backend Engineer Intern",
+      company: "Grit Technology",
+      location: "Remote",
+      period: "Aug 2025 – Sep 2025",
+      description: [
+        "Developed RESTful APIs that served as the core mechanism for client data synchronization.",
+        "Collaborated closely with frontend developers to optimize API contracts and ensure efficient integration.",
+        "Integrated third-party services to enable real-time data display, expanding the application's core features."
+      ]
+    },
+    {
+      title: "Technical Support Personnel",
+      company: "Swift Ticket Enterprise",
+      location: "Remote",
+      period: "May 2024 – Sep 2024",
+      description: [
+        "Provided technical support for ticketing platforms, resolving issues related to payments, accounts, and website errors.",
+        "Handled website hosting troubleshooting using cPanel, FTP, and phpMyAdmin.",
+        "Assisted customers with domain DNS setup, subdomains, and email configuration.",
+        "Documented support cases to improve backend stability and customer experience."
+      ]
+    },
+    {
+      title: "Software Developer",
+      company: "Taadax Digital Solutions",
+      location: "Remote",
+      period: "Nov 2023 – Mar 2024",
+      description: [
+        "Led weekly knowledge-sharing sessions that improved team collaboration and problem-solving efficiency.",
+        "Worked with APIs to connect frontend components to backend data sources.",
+        "Tested backend endpoints and optimized data flow across the application.",
+        "Designed and built a full HR employee dashboard using React, CSS, and JavaScript."
+      ]
+    },
+    {
+      title: "Web Developer",
+      company: "Ikechoice Couture",
+      location: "Remote",
+      period: "Oct 2022 – May 2023",
+      description: [
+        "Implemented API-based product display for couture listings.",
+        "Collaborated with designers to build visually appealing website layouts.",
+        "Developed responsive UI components using HTML, CSS, and JavaScript.",
+        "Applied SEO best practices to increase search engine ranking and organic traffic."
+      ]
+    }
+  ];
+
   return (
     <section className="relative pt-32 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-[#130b1c] via-[#130b1c]/80 to-transparent opacity-30" />
@@ -16,7 +80,9 @@ const Experience = () => {
           viewport={{ once: true }}
           className="mb-20"
         >
-          <span className="text-[#6f1cd7] text-sm tracking-[0.25em] uppercase mb-4 block font-medium">Experience</span>
+          <span className="text-[#6f1cd7] text-sm tracking-[0.25em] uppercase mb-4 block font-medium">
+            Experience
+          </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-clashbold text-white mb-6 tracking-tight">
             Professional Journey
           </h2>
@@ -27,87 +93,7 @@ const Experience = () => {
           <div className="absolute left-0 md:left-12 top-0 w-[1px] h-full bg-gradient-to-b from-[#6f1cd7]/40 via-[#6f1cd7]/20 to-transparent" />
 
           <div className="space-y-12">
-            {[
-             {
-              title: "Creative Designer & Software Developer",
-              company: "9ine Movies",
-              location: "Remote",
-              period: "May 2025 – Present",
-              description: [
-                "Contributing to the design and development of the platform’s backend architecture for large-scale movie streaming and downloads.",
-                "Integrated external movie data APIs and optimized backend performance using Node.js and MongoDB while implementing secure coding practices."
-              ]
-            },
-            {
-              title: "Lead Developer",
-              company: "Jachi Tech, Nigeria",
-              location: "Remote",
-              period: "Jan 2023 – Jun 2024",
-              description: [
-                "Designed and maintained visually appealing, responsive websites for clients to enhance online visibility and scalability.",
-                "Collaborated with frontend and backend teams to integrate APIs and improve functionality.",
-                "Optimized website performance, increasing load speed and user experience across devices."
-              ]
-            },
-            {
-              title: "Software Engineer",
-              company: "Ugwu Tutorials, Enugu, Nigeria",
-              location: "Enugu, Nigeria",
-              period: "May 2023 – Dec 2023",
-              description: [
-                "Developed and tested internal dashboards enabling seamless communication between students and teachers.",
-                "Built and maintained backend systems using Node.js and Express.js.",
-                "Created automated email systems for congratulatory, rejection, and confirmation notifications.",
-                "Implemented admin dashboards for tutors to create exams and students to access personalized exams.",
-                "Utilized Git and GitHub for version control and collaborative development."
-              ]
-            },
-            {
-              title: "Quivo",
-              company: "Solo Developer",
-              location: "Remote",
-              period: "2024",
-              description: [
-                "Built an AI-powered job finder analyzing CV content and recommending tailored job listings.",
-                "Implemented Redis caching to store job results for 24hrs, reducing latency and repeated API requests.",
-                "Added a rate limiter to prevent multiple concurrent requests and reduce server load.",
-                "Integrated Gemini AI for CV parsing and Adzuna API for real-time job data."
-              ]
-            },
-            {
-              title: "Kix CLI",
-              company: "Solo Developer",
-              location: "Remote",
-              period: "2024",
-              description: [
-                "Developed a CLI tool to instantly scaffold MongoDB + Express.js projects and initialize GitHub repositories.",
-                "Automated project setup, allowing developers to focus on building rather than configuration.",
-                "Extending the tool to spin up full MERN applications with best practices such as .env and .gitignore."
-              ]
-            },
-            {
-              title: "Chain Arena",
-              company: "Fullstack Developer",
-              location: "Remote",
-              period: "2024",
-              description: [
-                "Built a platform enabling Web2 games to integrate Web3 features without rebuilding infrastructure.",
-                "Implemented tokenized assets, NFT badges, and in-game staking using MERN, Ethers.js, and Solidity.",
-                "Designed secure and scalable backend and smart contract architecture for Web3 gaming integration."
-              ]
-            },
-            {
-              title: "Spltz",
-              company: "Founder / Developer",
-              location: "Remote",
-              period: "2024",
-              description: [
-                "Developed an on-chain payment splitting system enabling users to pay in stablecoins and receive funds in fiat currency.",
-                "Implemented secure smart contracts and backend logic for automated fund distribution.",
-                "Showcases practical Web3 fintech experience and decentralized payment solutions."
-              ]
-            }
-            ].map((experience, index) => (
+            {experienceData.map((experience, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, x: -20 }}
@@ -127,7 +113,7 @@ const Experience = () => {
                 <motion.div
                   whileHover={{
                     scale: 1.02,
-                    backgroundColor: 'rgba(111, 28, 215, 0.08)'
+                    backgroundColor: "rgba(111, 28, 215, 0.08)"
                   }}
                   className="group relative bg-[#130b1c]/60 backdrop-blur-sm border border-[#ffffff08] p-8 rounded-sm transition-all duration-500"
                 >
@@ -137,18 +123,31 @@ const Experience = () => {
                     <h3 className="text-2xl md:text-3xl font-clashbold text-white mb-3">
                       {experience.title}
                     </h3>
+
                     <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-6">
-                      <p className="text-[#6f1cd7] font-medium tracking-wide">{experience.company}</p>
+                      <p className="text-[#6f1cd7] font-medium tracking-wide">
+                        {experience.company}
+                      </p>
                       <div className="flex items-center gap-4">
-                        <span className="hidden md:inline text-[#FFFFFF40]">•</span>
-                        <span className="text-[#FFFFFF99] text-sm">{experience.location}</span>
+                        <span className="hidden md:inline text-[#FFFFFF40]">
+                          •
+                        </span>
+                        <span className="text-[#FFFFFF99] text-sm">
+                          {experience.location}
+                        </span>
                         <span className="text-[#FFFFFF40]">•</span>
-                        <span className="text-[#FFFFFF99] text-sm tracking-wider">{experience.period}</span>
+                        <span className="text-[#FFFFFF99] text-sm tracking-wider">
+                          {experience.period}
+                        </span>
                       </div>
                     </div>
+
                     <ul className="space-y-3">
                       {experience.description.map((item, i) => (
-                        <li key={i} className="text-[#FFFFFF99] leading-relaxed font-light flex items-start">
+                        <li
+                          key={i}
+                          className="text-[#FFFFFF99] leading-relaxed font-light flex items-start"
+                        >
                           <span className="text-[#6f1cd7] mr-3 mt-1.5">•</span>
                           {item}
                         </li>
@@ -168,7 +167,7 @@ const Experience = () => {
           >
             <Resume
               pdfUrl={resumeUrl}
-              fileName="DevJachi.pdf"
+              fileName="phellar.pdf"
               buttonText="Download Resume"
             />
           </motion.div>

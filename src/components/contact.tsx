@@ -28,8 +28,8 @@ const Contact = () => {
         <h3
           className={`font-medium text-[#FFFFFF99] text-lg text-center max-w-[320px] md:max-w-[992px] md:text-[25px] mmd:leading-[37.5px]`}
         >
-          I can help you design, improve or build the product experience for
-          your new or existing products. Feel free to get in touch with me.
+          I can help you architect, optimize, or build the backend systems that power your product. Whether it’s a new platform or an existing one
+           that needs improvement, feel free to reach out.
         </h3>
         <h1 className="font-clashbold font-semibold text-xl text-white md:text-[60px] md:leading-[73.8px]">
           Do You Have Any Ideas?
@@ -50,9 +50,9 @@ const Contact = () => {
           </div>
           <a
             className={`text-[#FFFFFF99] font-medium text-base md:text-[20px] md:leading-[30px]`}
-            href="mailto:codewithhonour@gmail.com"
+            href="mailto:ibukundamilaretemilade3@gmail.com"
           >
-            onwohemmanuel96@gmail.com
+            ibukundamilaretemilade3@gmail.com
           </a>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
@@ -65,7 +65,7 @@ const Contact = () => {
             href="tel:+2349163169949"
             className={`text-[#FFFFFF99] tex-base font-medium md:text-[20px] md:leading-[30px]`}
           >
-            +2349074908942
+            +2348028321670
           </a>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
@@ -77,10 +77,9 @@ const Contact = () => {
           <p
             className={`text-[#FFFFFF99] text-base mx-auto text-center font-medium md:text-[20px] md:leading-[30px]`}
           >
-            {timeOfDay === "morning" && <span>octoverse!⚡</span>}
-            {timeOfDay === "afternoon" && <span>localhost:3000</span>}
-            {timeOfDay === "evening" && <span>127.0.0.1:5500</span>}
-            {/* {timeOfDay === "evening" && <span>somewhere in the metaverse</span>} */}
+            {timeOfDay === "morning" && <span>Bed!⚡</span>}
+            {timeOfDay === "afternoon" && <span>localhost:5173</span>}
+            {timeOfDay === "evening" && <span>127.0.0.1:8000</span>}
           </p>
         </div>
       </div>
