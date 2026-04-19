@@ -10,13 +10,28 @@ export const projects = [
     name: "AfrikTastyBites",
     desc: "An africa food, cake, pastry ecommerce web app in Ontario-Canada.",
     lang: "React + Laravel + PHP + Stripe",
-    link: "https://9ine.vercel.app/",
+    link: "https://afriktastybites.com/",
   },
+  {
+    name: "HarvestHub Landing Page",
+    desc: " Where Farming meets cutting edge Solutions",
+    lang: "React + CSS + Figma",
+    link: "https://harvest-hub-murex.vercel.app/",
+  },
+  
   {
     name: "IT Support Help Desk",
     desc: " IT Help desk for support Ticket",
     lang: "PHP + Laravel + Sanctum Auth + Mysql",
     link: "https://github.com/phellar/Help-desk",
+  },
+  
+  
+  {
+    name: "Sore Adebisi's Portolio",
+    desc: " Portfolio for A Nigerian Creative Artist",
+    lang: "React + Tailwind Css + Figma",
+    link: "",
   },
   {
     name: "Admin SmartForce ",
