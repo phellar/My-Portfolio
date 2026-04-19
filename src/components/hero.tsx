@@ -63,7 +63,7 @@ const Hero = () => {
             <div className="relative flex flex-col justify-center w-max">
               <div className={`w-full`}>
                 <Image
-                  src="/images/public/images/IMG_7239.jpeg"
+                  src="/public/images/IMG_7239.jpeg"
                   alt="hero image"
                   width={400}
                   height={400}
