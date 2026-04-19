@@ -1,19 +1,18 @@
 "use client";
 
-import Resume from "./resume";
-import { motion } from "framer-motion";
 
-const resumeUrl = "/pdf/DevJachi.pdf";
+
+const resumeUrl = "/pdf/devdami.pdf";
 
 const Experience = () => {
   const experienceData = [
     {
-      title: "Backend Engineer",
+      title: "Full-Stack Engineer",
       company: "VamooveGo",
       location: "Remote",
       period: "2025 – Present",
       description: [
-        "Developing the backend architecture for a campus-focused food delivery platform serving FUTA and Akure.",
+        "Developed the backend architecture for a campus-focused food delivery platform serving FUTA and Akure.",
         "Built vendor onboarding, menu management, order processing, and cart features using Node.js and Supabase.",
         "Implemented delivery fee calculation using geolocation-based distance metrics with Leaflet maps.",
         "Designed a responsive React frontend enabling users to browse vendors, place orders, and track deliveries.",
@@ -32,19 +31,20 @@ const Experience = () => {
       ]
     },
     {
-      title: "Technical Support Personnel",
-      company: "Swift Ticket Enterprise",
-      location: "Remote",
-      period: "May 2024 – Sep 2024",
-      description: [
-        "Provided technical support for ticketing platforms, resolving issues related to payments, accounts, and website errors.",
-        "Handled website hosting troubleshooting using cPanel, FTP, and phpMyAdmin.",
-        "Assisted customers with domain DNS setup, subdomains, and email configuration.",
-        "Documented support cases to improve backend stability and customer experience."
-      ]
+      title: "Frontend Developer",
+company: "Swift Ticket Enterprise",
+location: "Remote",
+period: "May 2024 – Sep 2024",
+description: [
+  "Built and maintained WordPress pages with responsive UI.",
+  "Customized themes using HTML, CSS, JavaScript, and PHP.",
+  "Integrated and managed site features and plugins.",
+  "Worked on DNS, subdomains, and basic hosting setup.",
+  "Fixed UI issues and improved overall site performance."
+]
     },
     {
-      title: "Software Developer",
+      title: "Frontend Developer",
       company: "Taadax Digital Solutions",
       location: "Remote",
       period: "Nov 2023 – Mar 2024",
@@ -159,18 +159,7 @@ const Experience = () => {
             ))}
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mt-20 pl-16 md:pl-24"
-          >
-            <Resume
-              pdfUrl={resumeUrl}
-              fileName="phellar.pdf"
-              buttonText="Download Resume"
-            />
-          </motion.div>
+          
         </div>
       </div>
     </section>
