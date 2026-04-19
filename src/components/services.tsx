@@ -13,13 +13,15 @@ import {
 } from 'lucide-react';
 
 const services = [
-    // {
-    //     id: 1,
-    //     title: "FRONTEND DEVELOPMENT",
-    //     description: "Crafting responsive and interactive web applications using React, Next.js, and TypeScript. Focusing on modern UI/UX practices and optimal performance.",
-    //     icon: Code,
-    //     category: "Development"
-    // },
+     {
+       id: 1,
+        title: "FRONTEND DEVELOPMENT",
+        description: "Crafting responsive and interactive web applications using React, Next.js, and TypeScript. Focusing on modern UI/UX practices and optimal performance.",
+        icon: Code,
+    
+         
+category: "Development"
+     },
     {
         id: 2,
         title: "BACKEND DEVELOPMENT",
